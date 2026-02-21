@@ -27,8 +27,8 @@
 html { scroll-behavior: smooth; }
 
 body {
-  background: var(--bg);
-  color: var(--text);
+  bakground: var(--bg);
+  olor: var(--text);
   font-family: var(--ff-body);
   font-weight: 300;
   overflow-x: hidden;
@@ -37,10 +37,10 @@ body {
 
 /* Noise texture overlay */
 body::before {
-  content: '';
+  ontent: '';
   position: fixed;
   inset: 0;
-  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.04'/%3E%3C/svg%3E");
+  bakground-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.04'/%3E%3C/svg%3E");
   pointer-events: none;
   z-index: 9998;
   opacity: 0.5;
@@ -1107,7 +1107,7 @@ footer {
   <div class="hero-left">
     <div class="hero-eyebrow">Data Analyst & AI Engineer</div>
     <h1 class="hero-name">
-      Ajay <span class="line2">C</span>
+      Ajay <span class="line1">C</span>
     </h1>
     <p class="hero-tagline">
       Transforming raw data into strategic decisions. Specializing in machine learning, deep learning, and data visualization for real-world impact.
@@ -1710,4 +1710,5 @@ document.querySelectorAll('a[href^="#"]').forEach(a => {
 </script>
 </body>
 </html>
+
 
